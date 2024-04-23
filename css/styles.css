@@ -641,7 +641,7 @@ textarea {
 
 .form-policy-link,
 .input-label,
-.input::placeholder{
+.input::placeholder {
   color: var(--specific-secondary-color);
   font-size: 12px;
   line-height: 1.16;
