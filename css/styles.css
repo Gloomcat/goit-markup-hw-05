@@ -580,6 +580,7 @@ textarea {
     0px 1px 1px 0px #00000024;
   transition: var(--primary-transition);
   transition-property: opacity, transform;
+  padding: 72px 24px 24px 24px;
 }
 
 .backdrop.is-hidden .modal {
@@ -622,21 +623,11 @@ textarea {
   fill: var(--primary-background-color);
 }
 
-.form {
-  position: relative;
-  top: 72px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 12px;
-  margin: 0 auto;
-  width: 360px;
-}
 
 .form-caption {
   text-align: center;
   font-weight: var(--medium-font-weight);
-  width: 100%;
+  margin-bottom: 8px;
 }
 
 .form-policy-link,
@@ -673,10 +664,15 @@ textarea {
   padding: 8px 16px;
 }
 
+.form-field-wrapper {
+  margin-bottom: 8px;
+}
+
 .field-check-wrapper {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin: 16px 0 24px 0;
 }
 
 .input-check-wrapper {
